@@ -71,7 +71,7 @@ async def main():
     print("InvestRadar Bot ishga tushdi...")
     while True:
         await fetch_and_post_news()
-        await asyncio.sleep(300)
+        await asyncio.sleep(150)
 
 if __name__ == "__main__":
     asyncio.run(main())
